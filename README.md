@@ -46,7 +46,23 @@ The game supports all standard chess rules including valid moves, check detectio
 
 ---
 
-## How to Build & Run
+
+## Project Structure
+
+my-chess/
+├── src/
+│   ├── board.cpp / board.h
+│   ├── game.cpp / game.h
+│   ├── pieces.cpp / pieces.h
+│   └── main.cpp
+├── sounds/
+├── pieces_png/
+├── CMakeLists.txt
+└── README.md
+
+---
+
+## How to Run
 
 ```bash
 mkdir build
@@ -54,21 +70,3 @@ cd build
 cmake ..
 make
 ./chess
-
----
-
-## Project Structure
-
-My-Chess/
-├── src/
-│   ├── game.h
-│   ├── game.cpp
-│   ├── board.h
-│   ├── board.cpp
-│   ├── pieces.h
-│   ├── pieces.cpp
-│   └── main.cpp
-├── sounds/
-├── pieces_png/
-├── CMakeLists.txt
-└── README.md
