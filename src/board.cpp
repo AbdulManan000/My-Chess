@@ -103,6 +103,7 @@ void Board::king_finder(Shade s, int &r, int &c)
       {
         r = i;
         c = j;
+        return;
       }
     }
   }
@@ -200,9 +201,9 @@ bool Board::checkmate(int king_r, int king_c)
         continue;
       }
 
-      for (int r = 0; r < 7; r++)
+      for (int r = 0; r < 8; r++)
       {
-        for (int c = 0; c < 7; c++)
+        for (int c = 0; c < 8; c++)
         {
           if (pseudo_move(i, j, r, c) == true) // performing all possible moves for one color if any is valid then no checkmate
           {
@@ -332,6 +333,7 @@ void Board::set_piece(int old_r, int old_c, int new_r, int new_c)
   promotion();                               // check if promotion should happen
 
   check = false; // reseting check here because check resets automatically after a valid move
+  check_coords=-1;
 
   int oppositon_king_coords[2];
   king_finder(static_cast<Shade>(!turn), oppositon_king_coords[0], oppositon_king_coords[1]);

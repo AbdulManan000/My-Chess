@@ -1,4 +1,5 @@
 #include "pieces.h"
+#include <cmath>
 
 //////Helper Functions/////
 int get_column(int num)
