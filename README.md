@@ -55,7 +55,10 @@ cmake ..
 make
 ./chess
 
+---
+
 ## Project Structure
+
 My-Chess/
 ├── src/
 │   ├── game.h
