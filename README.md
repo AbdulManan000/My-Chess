@@ -60,7 +60,7 @@ my-chess/
 ├── pieces_png/
 ├── CMakeLists.txt
 └── README.md
-
+```
 ---
 
 ## How to Run
