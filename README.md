@@ -29,19 +29,19 @@ The game supports all standard chess rules including valid moves, check detectio
 ## Screenshots
 
 ### Starting Board
-![Starting Board]<img width="1010" height="1000" alt="screenshot-2026-05-10_23-10-47" src="https://github.com/user-attachments/assets/8793ac5b-bf01-430c-a1d6-2f5c2a83b196" />
+<img width="1010" height="1000" alt="screenshot-2026-05-10_23-10-47" src="https://github.com/user-attachments/assets/8793ac5b-bf01-430c-a1d6-2f5c2a83b196" />
 
 
 ### Valid Moves Highlighted
-![Valid Moves]<img width="988" height="987" alt="screenshot-2026-05-10_23-11-22" src="https://github.com/user-attachments/assets/89c60dea-c587-430f-bcf6-1f3427d2329d" />
+<img width="988" height="987" alt="screenshot-2026-05-10_23-11-22" src="https://github.com/user-attachments/assets/89c60dea-c587-430f-bcf6-1f3427d2329d" />
 
 
 ### Check Situation
-![Check]<img width="986" height="1000" alt="screenshot-2026-05-10_23-11-40" src="https://github.com/user-attachments/assets/98020e5e-f51b-43e3-8360-484bd36aacae" />
+<img width="986" height="1000" alt="screenshot-2026-05-10_23-11-40" src="https://github.com/user-attachments/assets/98020e5e-f51b-43e3-8360-484bd36aacae" />
 
 
 ### Checkmate
-![Checkmate]<img width="993" height="996" alt="screenshot-2026-05-10_23-12-12" src="https://github.com/user-attachments/assets/98abd3ef-526d-4d69-8c2a-7cc37ff60704" />
+<img width="993" height="996" alt="screenshot-2026-05-10_23-12-12" src="https://github.com/user-attachments/assets/98abd3ef-526d-4d69-8c2a-7cc37ff60704" />
 
 
 ---
@@ -55,7 +55,7 @@ cmake ..
 make
 ./chess
 
-## **Project Stucture**
+## Project Structure
 My-Chess/
 ├── src/
 │   ├── game.h
