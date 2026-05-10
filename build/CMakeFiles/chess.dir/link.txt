@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/chess.dir/link.d CMakeFiles/chess.dir/src/main.cpp.o CMakeFiles/chess.dir/src/game.cpp.o CMakeFiles/chess.dir/src/board.cpp.o CMakeFiles/chess.dir/src/pieces.cpp.o -o chess  -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
