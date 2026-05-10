@@ -50,7 +50,7 @@ The game supports all standard chess rules including valid moves, check detectio
 ## Project Structure
 
 ```text
-my-chess/
+My-Chess/
 ├── src/
 │   ├── board.cpp / board.h
 │   ├── game.cpp / game.h
